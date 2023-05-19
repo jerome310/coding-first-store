@@ -1,5 +1,5 @@
 // Shopify Command to connect your store
-"shopify theme dev --store=https://ariel-cameron.myshopify.com"
+"shopify theme dev --store=https://codingdevstore.myshopify.com"
 
 // Shortcut command to run to display your store inside the browser
 "shopify theme dev"
