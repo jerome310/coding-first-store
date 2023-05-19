@@ -27,8 +27,10 @@ Connect your github repo project to Shopify
 ```
 ### Delete dawn files
 ```
-Remove all the files that dawn had inside your folder and use "Shopify Boilerplate Store" folder inside your desktop as the boilerplate files
-then push the new changes to github and keep refreshing your shopify preview that you get from using the shopify command and keep refreshing on the online
-store page until you see on both spots it showing your the content that's inside your index.liquid file.
+Remove all the files that dawn had inside its project and use "Shopify Boilerplate Store" folder, match your folders and files with it. It's located inside the desktop. Now push the new changes to github and keep refreshing your shopify preview that you get from using the shopify command and keep refreshing on the online
+store page until you see both spots showing the content that's inside your index.liquid file.
+
+Note: Reason why you want to refresh a bunch of times is because you're deleting a ton of content and it'll take shopify awhile to catch up with your current
+changes.
 ```
 Enjoy :palm_tree:
