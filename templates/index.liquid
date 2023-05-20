@@ -1,1 +1,10 @@
-<h1>My name is jerome</h1>
+<div class="navbar">
+    <img src="{{'nola_logo.webp' | asset_url}}">
+    <nav>
+        <ul>
+        {% for link in linklists.main-menu.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+        </ul>
+    </nav>
+</div>
