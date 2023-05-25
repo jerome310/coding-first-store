@@ -4,7 +4,8 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
 
-    <img src="{{'brand_name.jpg' | asset_url}}">
+    {% comment %} <img src="{{'brand_name.jpg' | asset_url}}"> {% endcomment %}
+    <a href="">Brand Name</a>
     <nav>
         <ul class="nav-li">
             {% for link in linklists.main-menu.links %}
@@ -39,11 +40,17 @@
 <script src="/assets/script.js.liquid"></script>
 
 
-{% schema %}
+{% comment %} {% schema %}
     {
-       "name": "Navigational Bar",
-       "settings": {
-
-       }
+       "name": "Header",
+       "settings": [
+        {
+            "type": "text",
+            "id": "mobile_menu_title",
+            "label": "",
+            "default": "",
+            "info": ""
+        }
+       ]
     }
-{% endschema %}
+{% endschema %} {% endcomment %}
