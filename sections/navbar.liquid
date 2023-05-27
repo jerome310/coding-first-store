@@ -5,7 +5,7 @@
     </svg>
 
     {% comment %} <img src="{{'brand_name.jpg' | asset_url}}"> {% endcomment %}
-    <h1 class="shop-name"><a href="#">{{shop.name}}</a></h1>
+    <span class="shop-name"><a href="">{{section.settings.mobile_menu_title}}</a></span>
     <nav>
         <ul class="nav-li">
             {% for link in linklists.main-menu.links %}
@@ -40,17 +40,17 @@
 <script src="/assets/script.js.liquid"></script>
 
 
-{% comment %} {% schema %}
+{% schema %}
     {
        "name": "Header",
        "settings": [
         {
             "type": "text",
             "id": "mobile_menu_title",
-            "label": "",
-            "default": "",
-            "info": ""
+            "label": "Title",
+            "default": "Menu",
+            "info": "This is the title for the mobile menu window"
         }
        ]
     }
-{% endschema %} {% endcomment %}
+{% endschema %}

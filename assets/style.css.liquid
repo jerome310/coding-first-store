@@ -3,11 +3,7 @@
 
 
 /* Store Name */
-.shop-name a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 600;
-}
+
 
 /* Navbar Section */
 .navbar {
@@ -18,6 +14,14 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
+
+.shop-name a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 25px;
+}
+
 .navbar img {
   width: 180px;
 }
@@ -47,7 +51,19 @@
   color: #555555;
 }
 
+/* Tablet */
+/* @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  
+} */
+
+/* Mobile */
 @media only screen and (max-width : 500px) {
+  /* .navbar {
+  display: flex;
+  justify-content: space-between;
+} */
   /* Navbar Mobile  */
   .hamburger {
     justify-self: center;
@@ -72,5 +88,7 @@
     display: flex;
     flex-direction: column;
   }
-
+ /* .shop-name {
+    padding-left: 40px;
+  } */
 }
